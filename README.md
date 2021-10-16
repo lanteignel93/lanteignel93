@@ -10,4 +10,6 @@ Here I will keep repositories of projects that I've worked on and are of interes
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=lanteignel93.visitor-badge)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lanteignel93&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice. Nothing contained on my Site constitutes a solicitation, recommendation, endorsement, or offer by me or any third party service provider to buy or sell any securities or other financial instruments in this or in in any other jurisdiction in which such solicitation or offer would be unlawful under the securities laws of such jurisdiction.
