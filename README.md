@@ -2,9 +2,9 @@
 
 Hi everyone and welcome to my Github! 
 
-My name is Laurent and I'm from Canada. I have a MSc. Financial Mathematics from the University of Chicago and I'm passionated about Quantitative Finance and Machine Learning. 
+My name is Laurent and I'm from Canada. I have a MSc. Financial Mathematics from the University of Chicago and I'm passionate about Quantitative Finance and Machine Learning. 
 
-Here I will keep repositories of projects that I've worked on and are of interest.
+Here I will keep repositories of projects that I've worked on and are of interest. 
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lanteignel93&theme=cobalt&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
