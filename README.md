@@ -1,4 +1,4 @@
-<img src="https://miro.medium.com/max/3600/0*JKyzq_e9TUlb84wX" alt="Banner" width = "600">
+<img src="https://miro.medium.com/max/3600/0*JKyzq_e9TUlb84wX" alt="Banner" width = "1000">
 
 Hi everyone and welcome to my Github! 
 
