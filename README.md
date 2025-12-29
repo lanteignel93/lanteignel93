@@ -1,15 +1,82 @@
-<img src="https://miro.medium.com/max/3600/0*JKyzq_e9TUlb84wX" alt="Banner" width = "900">
+# Laurent Lanteigne
 
-Hi everyone and welcome to my Github! 
+> **Quant**
+> *Bridging high-level financial strategy with low-level systems engineering.*
 
-My name is Laurent and I'm from Canada. I have a MSc. Financial Mathematics from the University of Chicago and I'm passionate about Quantitative Finance and Machine Learning. 
+Based in **Chicago, IL** (via Québec, Canada).
 
-Here I will keep repositories of projects that I've worked on and are of interest. 
+---
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=lanteignel93&theme=cobalt&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+### Workflow Setup 
+You can access most of [my configs here](https://github.com/lanteignel93/dot_files).  
+* **Editor:** Neovim (Lua-configured, custom TUI integrations) 
+* **Terminal:** Kitty + Zsh
+* **Multiplexer:** TMUX
+* **Environment:** Linux/Ubuntu
+* **Note taking:** Obsidian 
+* **Additional Tools**:
+  * fzf
+  * scooter
+  * lazygit  
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=lanteignel93.visitor-badge)
+---
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lanteignel93&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+### Technical Stack
 
-The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice. Nothing contained on my Site constitutes a solicitation, recommendation, endorsement, or offer by me or any third party service provider to buy or sell any securities or other financial instruments in this or in in any other jurisdiction in which such solicitation or offer would be unlawful under the securities laws of such jurisdiction.
+| Domain | Technologies |
+| :--- | :--- |
+| **Quant Finance** | Python (**Polars**, Pandas), **R** (Time Series), SQL, LaTeX |
+| **Systems & Speed** | C++ (intermediate) |
+| **AI Engineering** | Multi-Agent Orchestration, LLM Integration, CI/CD Pipelines |
+
+---
+
+### Markets
+* **Focus:** Volatility arbitrage, 0DTE strategies, and Market Microstructure.
+* **Philosophy:** "Don't just analyze the data; build the engine that analyzes the data."
+
+---
+
+### Research & Case Studies
+
+#### **[Trade Analysis: 1-DTE Weekend Gap](https://github.com/lanteignel93/trade_analysis_example)**
+* A quantitative post-mortem of a short-duration volatility strategy. 
+* Analyzes theta decay vs. gamma risk exposure, specifically focusing on the PnL variance caused by weekend gap risk.
+
+#### **[Replication Price Sensitivity](https://github.com/lanteignel93/replication_prices)**
+* Stress-testing the Black-Scholes model.
+* This study quantifies the replication error (PnL leakage) that occurs when theoretical assumptions—specifically continuous hedging and log-normal distribution—are violated by real-world market conditions.
+    
+---
+
+### Market Strategies
+* [**VXX Trade**](https://github.com/lanteignel93/vxx_trade)
+* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade)
+* [**Earning Trade**](https://github.com/lanteignel93/earning_trade)
+* [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade)
+
+---
+
+### Other Active Projects
+
+#### [`ai_personal_multi_agent`](https://github.com/lanteignel93/ai_personal_multi_agent)
+A local-first, multi-agent framework designed to "think" alongside me.
+* **Architecture:** Custom SQLite "Ledger" for tracking agent thoughts and auditability.
+* **Features:** Modular provider system, CLI-first interface, and rigorous testing.
+* **Status:** *Active Development (CI/CD Integrated)*
+
+#### [`order_book_cpp`](https://github.com/lanteignel93/order_book_cpp)
+A high-performance Limit Order Book (LOB) and matching engine implemented in modern C++.
+* **Engine:** Standard **Price-Time Priority** matching algorithm.
+* **Architecture:** Separation of concerns between Order Entry, Book Management, and Trade Execution.
+* **Tech:** Focus on memory safety and low-latency execution.
+* **Status:** *Active Development*
+---
+
+### Offline
+* **Sports:** Marathon training, skiing, tennis.
+* **Audio:**
+  * *Headphones*: Schiit Stack + Beyerdynamic.
+  * *Desktop Monitors*: Fosi Audio v3 + Wharfedale Diamond 12.0.
+  * *TV Setup*: Yamaha A-S301 Integrated Amplifier + Monitor Audio Bronze 2. 
+* **Others**: Cooking, wine, and making cocktails. 
