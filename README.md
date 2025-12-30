@@ -26,7 +26,7 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 | Domain | Technologies |
 | :--- | :--- |
 | **Quant Finance** | Python (**Polars**, Pandas), **R** (Time Series), SQL, LaTeX |
-| **Systems & Speed** | C++ (intermediate) |
+| **Systems & Speed** | C++ (beginner) |
 | **AI Engineering** | Multi-Agent Orchestration, LLM Integration, CI/CD Pipelines |
 
 ---
