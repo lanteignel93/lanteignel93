@@ -14,10 +14,11 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 * **Multiplexer:** TMUX
 * **Environment:** Linux/Ubuntu
 * **Note taking:** Obsidian 
-* **Additional Tools**:
+* **Additional CLI/TUI Tools**:
   * fzf
   * scooter
-  * lazygit  
+  * lazygit
+  * exa
 
 ---
 
