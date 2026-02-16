@@ -33,7 +33,7 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Markets
-* **Focus:** Volatility arbitrage, 0DTE strategies, and Market Microstructure.
+* **Focus:** Volatility arbitrage, Mid-Frequencies strategies, and Market Microstructure.
 * **Philosophy:** "Don't just analyze the data; build the engine that analyzes the data."
 
 ---
