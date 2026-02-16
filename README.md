@@ -51,7 +51,6 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Market Strategies
-* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade)
 * [**Earning Trade**](https://github.com/lanteignel93/earning_trade)
 * [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade)
 * [**VXX Trade**](https://github.com/lanteignel93/vxx_trade)
