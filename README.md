@@ -27,7 +27,7 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 | Domain | Technologies |
 | :--- | :--- |
 | **Quant Finance** | Python (**Polars**, Pandas), **R** (Time Series), SQL, LaTeX |
-| **Systems & Speed** | C++ (intermediate) |
+| **Systems & Speed** | C++ (intermediate), Linux |
 | **AI Engineering** | Multi-Agent Orchestration, LLM Integration, CI/CD Pipelines |
 
 ---
@@ -61,18 +61,12 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 
 ### Other Active Projects
 
-#### [`ai_personal_multi_agent`](https://github.com/lanteignel93/ai_personal_multi_agent)
-A local-first, multi-agent framework designed to "think" alongside me.
-* **Architecture:** Custom SQLite "Ledger" for tracking agent thoughts and auditability.
-* **Features:** Modular provider system, CLI-first interface, and rigorous testing.
-* **Status:** *Active Development (CI/CD Integrated)*
-
 #### [`order_book_cpp`](https://github.com/lanteignel93/order_book_cpp)
-A high-performance Limit Order Book (LOB) and matching engine implemented in modern C++.
+An exploration of a matching Engine in C++.
 * **Engine:** Standard **Price-Time Priority** matching algorithm.
 * **Architecture:** Separation of concerns between Order Entry, Book Management, and Trade Execution.
 * **Tech:** Focus on memory safety and low-latency execution.
-* **Status:** *Active Development*
+* **Status:** *On Hold*
 ---
 
 ### Offline
