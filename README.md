@@ -51,10 +51,10 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Market Strategies
-* [**Skew Trade**](https://github.com/lanteignel93/skew_trade)
-* [**Earning Trade**](https://github.com/lanteignel93/earning_trade)
-* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade)
-* [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade)
+* [**Skew Trade**](https://github.com/lanteignel93/skew_trade_public)
+* [**Earning Trade**](https://github.com/lanteignel93/earning_trade_public)
+* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade_public)
+* [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade_public)
 * [**VXX Trade**](https://github.com/lanteignel93/vxx_trade)
 
 ---
