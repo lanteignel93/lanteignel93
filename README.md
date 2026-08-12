@@ -51,6 +51,7 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Market Strategies
+* [**Dispersion Skew Trade**](https://github.com/lanteignel93/skew_implied_corr_trade)
 * [**Skew Trade**](https://github.com/lanteignel93/skew_trade_public)
 * [**Earning Trade**](https://github.com/lanteignel93/earning_trade_public)
 * [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade_public)
@@ -67,7 +68,19 @@ An exploration of a matching Engine in C++.
 * **Architecture:** Separation of concerns between Order Entry, Book Management, and Trade Execution.
 * **Tech:** Focus on memory safety and low-latency execution.
 * **Status:** *On Hold*
----
+
+#### [`hft_market_making_theory`](https://github.com/lanteignel93/hft_market_making_theory)
+HJB solvers, closed forms, and a limit-order-book simulator for the optimal market-making problem.
+* **Source:** Cartea, Jaimungal & Penalva, *Algorithmic and High-Frequency Trading* (CUP 2015), Ch. 10 — plus extensions that go past the book.
+* **Method:** Each notebook derives the HJB, solves it (closed form where one exists, numerically otherwise), then verifies against an independent check — Monte Carlo,
+matrix exponential, or an analytic limit.
+* **Coverage:** Inventory aversion, at-the-touch, adverse selection, multi-level ladders, exogenous and filtered alpha, LOB-aware simulation — 11 notebooks, read in
+order.
+* **Numerics:** Explicit / implicit / Crank-Nicolson, with convergence-order and stability analysis.
+* **Tech:** Python 3.13, `uv`, unit-tested solvers in `src/mm_theory/`, CI on every push.
+* **Status:** *Active*
+
+--- 
 
 ### Offline
 * **Sports:** Marathon training, skiing, tennis.
