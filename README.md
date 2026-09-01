@@ -51,6 +51,7 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Market Strategies
+* [**Moisson — Daily Put-Ladder Skew Harvest**](https://github.com/lanteignel93/moisson_trade_public)
 * [**Dispersion Skew Trade**](https://github.com/lanteignel93/skew_implied_corr_trade)
 * [**Skew Trade**](https://github.com/lanteignel93/skew_trade_public)
 * [**Earning Trade**](https://github.com/lanteignel93/earning_trade_public)
@@ -62,12 +63,12 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 
 ### Other Active Projects
 
-#### [`order_book_cpp`](https://github.com/lanteignel93/order_book_cpp)
-An exploration of a matching Engine in C++.
-* **Engine:** Standard **Price-Time Priority** matching algorithm.
-* **Architecture:** Separation of concerns between Order Entry, Book Management, and Trade Execution.
-* **Tech:** Focus on memory safety and low-latency execution.
-* **Status:** *On Hold*
+#### [`matching_engine`](https://github.com/lanteignel93/matching_engine)
+A limit order book and matching engine in modern C++ — successor to [`order_book_cpp`](https://github.com/lanteignel93/order_book_cpp), which is kept as the "before" picture.
+* **Format:** Milestone-driven — the docs teach, every line is hand-written, pre-written doctest suites judge it.
+* **Engine:** Price-time priority LOB, rebuilt then optimized: ~0.8M msgs/s (the old design) → ~10.6M msgs/s (reference V2) on the same 1M-message replay data.
+* **Tech:** C++20, CMake presets, ASan/UBSan/TSan, benchmark harness; fully offline (vendored test framework, shipped data).
+* **Status:** *Active*
 
 #### [`hft_market_making_theory`](https://github.com/lanteignel93/hft_market_making_theory)
 HJB solvers, closed forms, and a limit-order-book simulator for the optimal market-making problem.
