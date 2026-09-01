@@ -15,7 +15,10 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 * **Environment:** Linux/Ubuntu
 * **Note taking:** Obsidian 
 * **Python tooling:** uv, ruff, pre-commit, pytest
-* **Agentic coding:** Claude Code (custom hooks + agents)
+* **AI leverage:** Heavy, by design. Claude Code wired into the daily workflow through a set of private repos — custom hooks, slash commands, subagents, persistent memory, an engineering journal it writes, and an Obsidian vault it reads. Runs as:
+  * *Research assistant* — strategy research logs, registered-hypothesis workflows, pitch/review passes.
+  * *Executive assistant* — task tracking, briefings, weekly reviews, meeting-note sync.
+  * *Pair programmer* — every repo above was built in that loop.
 * **Additional CLI/TUI Tools**:
   * fzf
   * scooter
