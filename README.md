@@ -14,11 +14,14 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 * **Multiplexer:** TMUX
 * **Environment:** Linux/Ubuntu
 * **Note taking:** Obsidian 
+* **Python tooling:** uv, ruff, pre-commit, pytest
+* **Agentic coding:** Claude Code (custom hooks + agents)
 * **Additional CLI/TUI Tools**:
   * fzf
   * scooter
   * lazygit
-  * exa
+  * eza
+  * gh
 
 ---
 
