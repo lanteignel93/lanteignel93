@@ -51,13 +51,13 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Market Strategies
-* [**Moisson — Daily Put-Ladder Skew Harvest**](https://github.com/lanteignel93/moisson_trade_public)
-* [**Dispersion Skew Trade**](https://github.com/lanteignel93/skew_implied_corr_trade)
-* [**Skew Trade**](https://github.com/lanteignel93/skew_trade_public)
-* [**Earning Trade**](https://github.com/lanteignel93/earning_trade_public)
-* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade_public)
-* [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade_public)
-* [**VXX Trade**](https://github.com/lanteignel93/vxx_trade)
+* [**Moisson — Daily Put-Ladder Skew Harvest**](https://github.com/lanteignel93/moisson_trade_public) — Sell the SPX 20Δ put ladder every day against a 50Δ straddle and a far-OTM tail strip; one scale knob, no signals, holdout-validated.
+* [**Dispersion Skew Trade**](https://github.com/lanteignel93/skew_implied_corr_trade) — Short the SPX put wing, long single-name puts, vega-flat: harvesting the implied-correlation premium that lives in the index wing.
+* [**Skew Trade**](https://github.com/lanteignel93/skew_trade_public) — PCA-isolated put-skew steepness (PC2) mean reversion, expressed in delta-hedged 1×2 put ratio spreads.
+* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade_public) — Long/short 1-DTE SPX straddles sized by a mean-reversion signal on recent straddle returns, with weekend-gap-aware position rules.
+* [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade_public) — PC1-neutral relative value on the VIX futures curve: level shocks hedged out, roll-down and curvature kept.
+* [**Earning Trade**](https://github.com/lanteignel93/earning_trade_public) — Delta-neutral ATM straddles around earnings: long the pre-announcement IV ramp, short the announcement crush.
+* [**VXX Trade**](https://github.com/lanteignel93/vxx_trade) — An earlier end-to-end build: a VXX vol strategy as the vehicle for packaging, OOP design, and backtest engineering practice.
 
 ---
 
