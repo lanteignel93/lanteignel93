@@ -57,13 +57,15 @@ You can access most of [my configs here](https://github.com/lanteignel93/dot_fil
 ---
 
 ### Market Strategies
-* [**Moisson — Daily Put-Ladder Skew Harvest**](https://github.com/lanteignel93/moisson_trade_public) — Sell the SPX 20Δ put ladder every day against a 50Δ straddle and a far-OTM tail strip; one scale knob, no signals, holdout-validated.
-* [**Dispersion Skew Trade**](https://github.com/lanteignel93/skew_implied_corr_trade) — Short the SPX put wing, long single-name puts, vega-flat: harvesting the implied-correlation premium that lives in the index wing.
-* [**Skew Trade**](https://github.com/lanteignel93/skew_trade_public) — PCA-isolated put-skew steepness (PC2) mean reversion, expressed in delta-hedged 1×2 put ratio spreads.
-* [**ONE DTE Trade**](https://github.com/lanteignel93/one_dte_trade_public) — Long/short 1-DTE SPX straddles sized by a mean-reversion signal on recent straddle returns, with weekend-gap-aware position rules.
-* [**VIX Futures PCA Trade**](https://github.com/lanteignel93/vix_pca_futures_trade_public) — PC1-neutral relative value on the VIX futures curve: level shocks hedged out, roll-down and curvature kept.
-* [**Earning Trade**](https://github.com/lanteignel93/earning_trade_public) — Delta-neutral ATM straddles around earnings: long the pre-announcement IV ramp, short the announcement crush.
-* [**VXX Trade**](https://github.com/lanteignel93/vxx_trade) — An earlier end-to-end build: a VXX vol strategy as the vehicle for packaging, OOP design, and backtest engineering practice.
+*Named on a ski theme — each name encodes the character of the trade.*
+
+* [**Corduroy — Daily Put-Ladder Skew Harvest**](https://github.com/lanteignel93/corduroy_trade_public) — Sell the SPX 20Δ put ladder every day against a 50Δ straddle and a far-OTM tail strip; one scale knob, no signals, holdout-validated.
+* [**Traverse — Index-vs-Name Skew Dispersion**](https://github.com/lanteignel93/traverse_trade_public) — Short the SPX put wing, long single-name puts, vega-flat: harvesting the implied-correlation premium that lives in the index wing.
+* [**Cornice — SPX Put-Skew Mean Reversion**](https://github.com/lanteignel93/cornice_trade_public) — PCA-isolated put-skew steepness (PC2) mean reversion, expressed in delta-hedged 1×2 put ratio spreads.
+* [**Schuss — One-DTE Volatility Strategy**](https://github.com/lanteignel93/schuss_trade_public) — Long/short 1-DTE SPX straddles sized by a mean-reversion signal on recent straddle returns, with weekend-gap-aware position rules.
+* [**Snowpack — VIX Curve Relative Value**](https://github.com/lanteignel93/snowpack_trade_public) — PC1-neutral relative value on the VIX futures curve: level shocks hedged out, roll-down and curvature kept.
+* [**Slab — Earnings Straddle Book**](https://github.com/lanteignel93/slab_trade_public) — Delta-neutral ATM straddles around earnings: long the pre-announcement IV ramp, short the announcement crush.
+* [**Slush — VXX Research Project**](https://github.com/lanteignel93/slush_trade_public) — An earlier end-to-end build: a VXX vol strategy as the vehicle for packaging, OOP design, and backtest engineering practice.
 
 ---
 
