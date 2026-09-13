@@ -79,6 +79,12 @@ Obsidian vault it reads. It runs as *research assistant* (strategy logs,
 registered-hypothesis workflows, review passes), *executive assistant* (task tracking,
 briefings, weekly reviews), and *pair programmer*.
 
+A sanitised public release of that setup is in
+[`dotclaude.public`](https://github.com/lanteignel93/dotclaude.public) — task engine,
+journal, briefing and research-note scaffolding — with
+[`work-journal.public`](https://github.com/lanteignel93/work-journal.public) as its
+companion. The claim below is meant to be checkable rather than rhetorical.
+
 Stated plainly: much of the systems code here is substantially AI-assisted. The research
 discipline is built around that rather than in spite of it — registered hypotheses, sealed
 holdouts and stated kill criteria mean verification does not rest on the author's
