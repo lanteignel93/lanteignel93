@@ -93,10 +93,11 @@ confidence.
 ---
 
 ### Workflow Setup 
-You can access most of [my configs here](https://github.com/lanteignel93/dot_files).  
+See my whole setup in [`dotfiles.public`](https://github.com/lanteignel93/dotfiles.public): Neovim, tmux, zsh, kitty and an awesome WM + polybar desktop.  
 * **Editor:** Neovim (Lua-configured, custom TUI integrations) 
 * **Terminal:** Kitty + Zsh
 * **Multiplexer:** TMUX
+* **Window manager:** awesome WM + polybar
 * **Environment:** Linux/Ubuntu
 * **Note taking:** Obsidian 
 * **Python tooling:** uv, ruff, pre-commit, pytest
