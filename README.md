@@ -29,11 +29,12 @@ Based in **Chicago, IL** (via Québec, Canada).
 
 ### Other Active Projects
 
-#### [`matching_engine`](https://github.com/lanteignel93/matching_engine)
-A limit order book and matching engine in modern C++ — successor to [`order_book_cpp`](https://github.com/lanteignel93/order_book_cpp), which is kept as the "before" picture.
-* **Format:** Milestone-driven — the docs teach, every line is hand-written, pre-written doctest suites judge it.
-* **Engine:** Price-time priority LOB, rebuilt then optimized: ~0.8M msgs/s (the old design) → ~10.6M msgs/s (reference V2) on the same 1M-message replay data.
-* **Tech:** C++20, CMake presets, ASan/UBSan/TSan, benchmark harness; fully offline (vendored test framework, shipped data).
+#### [`lob-engine`](https://github.com/lanteignel93/lob-engine)
+A limit order book and price-time priority matching engine in C++20 — successor to [`order_book_cpp`](https://github.com/lanteignel93/order_book_cpp), which is kept as the "before" picture.
+* **Engine:** Price ladder, pooled intrusive FIFOs, open-addressed order-id index, and an SPSC feed → book pipeline. ~0.8M msgs/s (old design) → 3.95M (map-based book) → **15.5M msgs/s** on the same 1M-message replay.
+* **Correctness:** One contract suite for both books, a 50k-op differential fuzz of fast vs. reference book, and a golden `trade_hash` replay over every fill.
+* **Measured, not asserted:** Every optimization commit carries its before/after numbers — including the ones that surprised (a textbook hash that lost to `std::unordered_map`; a reserve fix visible only in `max` latency).
+* **Tech:** C++20, CMake presets, gcc/clang × ASan/UBSan/TSan CI, clang-tidy, benchmark harness.
 * **Status:** *Active*
 
 #### [`hft_market_making_theory`](https://github.com/lanteignel93/hft_market_making_theory)
