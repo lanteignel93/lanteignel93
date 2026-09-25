@@ -111,6 +111,18 @@ See my whole setup in [`dotfiles.public`](https://github.com/lanteignel93/dotfil
 
 ---
 
+### Themes
+*Two palettes, one switch. Each ships as a Neovim colorscheme, and the same palette dresses the terminal, prompt, tmux, window manager, Obsidian and Spotify, flipped together by one command.*
+
+* [**spacecowboy.nvim**](https://github.com/lanteignel93/spacecowboy.nvim) — A desert at night: umber ground, sand text, and two hue families only, cactus green and dust orange.
+* [**voidrunner.nvim**](https://github.com/lanteignel93/voidrunner.nvim) — Near-black ground, pale accents: lime for what is yours, mint for what arrives, lavender for what is elsewhere.
+
+| spacecowboy | voidrunner |
+| :---: | :---: |
+| [<img src="https://raw.githubusercontent.com/lanteignel93/spacecowboy.nvim/main/screenshots/cpp.png" width="420" alt="spacecowboy.nvim: C++ and Python in Neovim">](https://github.com/lanteignel93/spacecowboy.nvim) | [<img src="https://raw.githubusercontent.com/lanteignel93/voidrunner.nvim/main/screenshots/cpp.png" width="420" alt="voidrunner.nvim: C++ and Python in Neovim">](https://github.com/lanteignel93/voidrunner.nvim) |
+
+---
+
 ### Offline
 * **Sports:** Marathon training, skiing, tennis.
 * **Audio:**
