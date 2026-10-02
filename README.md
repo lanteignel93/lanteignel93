@@ -89,6 +89,14 @@ Obsidian vault it reads. It runs as *research assistant* (strategy logs,
 registered-hypothesis workflows, review passes), *executive assistant* (task tracking,
 briefings, weekly reviews), and *pair programmer*.
 
+The multi-machine layer under it is published as its own project,
+[`sc-fleet`](https://github.com/lanteignel93/sc-fleet): six small CLI tools for working across
+several Linux boxes with git, tmux and Claude Code. `wt` gives every topic its own worktree,
+`rig` keeps each box in sync and healthy, `crew` lists every running Claude Code session across
+the boxes, `tk` is a markdown task board, and `sc` dispatches over all of them. Each tool has one
+job and a man page, the test suites run offline, and a leak gate keeps hosts and paths out of
+anything committed.
+
 A sanitised public release of that setup is in
 [`dotclaude.public`](https://github.com/lanteignel93/dotclaude.public) — task engine,
 journal, briefing and research-note scaffolding — with
