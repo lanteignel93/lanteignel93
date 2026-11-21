@@ -10,22 +10,14 @@ Based in **Chicago, IL** (via Québec, Canada).
 ### Markets
 * **Focus:** Volatility arbitrage, Mid-Frequencies strategies, and Market Microstructure.
 * **Philosophy:** "Don't just analyze the data; build the engine that analyzes the data."
-* **Process:** Every strategy carries registered hypotheses, a sealed holdout, and stated kill criteria. One of them is public and killed.
+* **Process:** Every strategy carries registered hypotheses, a sealed holdout, and stated kill criteria.
 
 ---
 
 ### Market Strategies
-*Named on a ski theme — each name encodes the character of the trade.*
+*Named on a ski theme: each name encodes the character of the trade.*
 
-* [**Schuss — One-DTE Volatility Strategy**](https://github.com/lanteignel93/schuss_trade_public) — Long/short 1-DTE SPX straddles sized by a mean-reversion signal on recent straddle returns, with weekend-gap-aware position rules.
-* [**Traverse — Index-vs-Name Skew Dispersion**](https://github.com/lanteignel93/traverse_trade_public) — Short the SPX put wing, long single-name puts, vega-flat: harvesting the implied-correlation premium that lives in the index wing.
-* [**Corduroy — Daily Put-Ladder Skew Harvest**](https://github.com/lanteignel93/corduroy_trade_public) — Sell the SPX 20Δ put ladder every day against a 50Δ straddle and a far-OTM tail strip; one scale knob, no signals, holdout-validated.
-* [**Cornice — SPX Put-Skew Mean Reversion**](https://github.com/lanteignel93/cornice_trade_public) — PCA-isolated put-skew steepness (PC2) mean reversion, expressed in delta-hedged 1×2 put ratio spreads.
-* [**Snowpack — VIX Curve Relative Value**](https://github.com/lanteignel93/snowpack_trade_public) — PC1-neutral relative value on the VIX futures curve: level shocks hedged out, roll-down and curvature kept.
-* [**Mogul — VIX Vol-of-Vol Strangle**](https://github.com/lanteignel93/mogul_trade_public) — Sell a call-heavy strangle on the front monthly VIX options every day, delta-hedged in the VIX future, to collect the vol-of-vol premium tail hedgers pay for VIX calls. Built as the reference for the research protocol: the frozen candidate passed its sealed 2024–26 holdout, and a second sealed window (2008–13) showed the premium thins out in back-to-back shocks. Its [ML sizing layer](https://github.com/lanteignel93/mogul_ml_trade_public), built with chairlift, failed its one holdout look and is closed.
-* [**Slab — Earnings Straddle Book**](https://github.com/lanteignel93/slab_trade_public) — Delta-neutral ATM straddles around earnings: long the pre-announcement IV ramp, short the announcement crush.
-* [**Slalom — Single-Name Volatility ML**](https://github.com/lanteignel93/slalom_trade_public) — ML ranks S&P 500 names by the predicted P&L of a delta-hedged one-month ATM straddle, long the top decile and short the bottom. Seven years of walk-forward said yes; the one sealed holdout look said no. Killed, with the post-mortem public.
-* [**Slush — VXX Research Project**](https://github.com/lanteignel93/slush_trade_public) — An earlier end-to-end build: a VXX vol strategy as the vehicle for packaging, OOP design, and backtest engineering practice.
+Schuss, Traverse, Corduroy, Cornice, Snowpack, Mogul, Slab, Slalom and Slush: books across index and single-name volatility, skew, dispersion and the VIX complex, from live to killed. The research repos are private; happy to walk through them on request.
 
 ---
 
@@ -38,14 +30,6 @@ A limit order book and price-time priority matching engine in C++20 — successo
 * **Measured, not asserted:** Every optimization commit carries its before/after numbers — including the ones that surprised (a textbook hash that lost to `std::unordered_map`; a reserve fix visible only in `max` latency).
 * **Tech:** C++20, CMake presets, gcc/clang × ASan/UBSan/TSan CI, clang-tidy, benchmark harness.
 * **Status:** *Active*
-
-#### [`chairlift_public`](https://github.com/lanteignel93/chairlift_public)
-A machine-learning research pipeline in which the research protocol is code: the generic engine extracted from Slalom, so the next study inherits the discipline instead of re-implementing it.
-* **Protocol as code:** Point-in-time data, a target engine with declared units, causal features, walk-forward folds that assert their own embargo, and a holdout the loader refuses to read.
-* **Accountable runs:** A content-addressed store, run signatures over the inputs, byte-for-byte reruns, and a trial ledger that feeds a deflated Sharpe over every look.
-* **Proven on real studies:** Reproduces Slalom's walk-forward (ridge and LightGBM DART ensembles, the decile book) from the frozen dataset, and runs a VXX timing study through the same modules.
-* **Tech:** Python ≥ 3.12, uv, ruff, basedpyright (strict), pytest + hypothesis, CI on every push.
-* **Status:** *Active*, early development; the public repo carries the history up to 2026-10-01.
 
 #### [`hft_market_making_theory`](https://github.com/lanteignel93/hft_market_making_theory)
 HJB solvers, closed forms, and a limit-order-book simulator for the optimal market-making problem.
@@ -65,10 +49,6 @@ order.
 #### **[Trade Analysis: 1-DTE Weekend Gap](https://github.com/lanteignel93/trade_analysis_example)**
 * A quantitative post-mortem of a short-duration volatility strategy. 
 * Analyzes theta decay vs. gamma risk exposure, specifically focusing on the PnL variance caused by weekend gap risk.
-
-#### **[Replication Price Sensitivity](https://github.com/lanteignel93/replication_prices)**
-* Stress-testing the Black-Scholes model.
-* This study quantifies the replication error (PnL leakage) that occurs when theoretical assumptions—specifically continuous hedging and log-normal distribution—are violated by real-world market conditions.
 
 ---
 
