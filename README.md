@@ -44,14 +44,6 @@ order.
 
 ---
 
-### Research & Case Studies
-
-#### **[Trade Analysis: 1-DTE Weekend Gap](https://github.com/lanteignel93/trade_analysis_example)**
-* A quantitative post-mortem of a short-duration volatility strategy. 
-* Analyzes theta decay vs. gamma risk exposure, specifically focusing on the PnL variance caused by weekend gap risk.
-
----
-
 ### Technical Stack
 
 | Domain | Technologies |
